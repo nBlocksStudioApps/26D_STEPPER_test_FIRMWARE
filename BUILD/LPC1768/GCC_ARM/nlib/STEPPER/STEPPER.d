@@ -1,9 +1,9 @@
-BUILD\LPC1768\GCC_ARM\nlib\StringFormat\stringformat.o: \
- nlib\StringFormat\stringformat.cpp BUILD/LPC1768/GCC_ARM\mbed_config.h \
- nlib\StringFormat\stringformat.h nlib/nworkbench.h mbed-os/mbed.h \
- mbed-os/platform/mbed_version.h mbed-os/platform/mbed_toolchain.h \
- mbed-os/platform/mbed_preprocessor.h mbed-os/platform/platform.h \
- mbed-os/platform/mbed_retarget.h mbed-os/platform/mbed_toolchain.h \
+BUILD\LPC1768\GCC_ARM\nlib\STEPPER\STEPPER.o: nlib\STEPPER\STEPPER.cpp \
+ BUILD/LPC1768/GCC_ARM\mbed_config.h nlib\STEPPER\STEPPER.h \
+ nlib/nworkbench.h mbed-os/mbed.h mbed-os/platform/mbed_version.h \
+ mbed-os/platform/mbed_toolchain.h mbed-os/platform/mbed_preprocessor.h \
+ mbed-os/platform/platform.h mbed-os/platform/mbed_retarget.h \
+ mbed-os/platform/mbed_toolchain.h \
  mbed-os/targets/TARGET_NXP/TARGET_LPC176X/TARGET_MBED_LPC1768/device.h \
  mbed-os/targets/TARGET_NXP/TARGET_LPC176X/objects.h \
  mbed-os/targets/TARGET_NXP/TARGET_LPC176X/device/cmsis.h \

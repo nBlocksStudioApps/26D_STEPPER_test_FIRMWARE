@@ -1,9 +1,9 @@
-BUILD\LPC1768\GCC_ARM\nlib\KernelPeriod\kernelperiod.o: \
- nlib\KernelPeriod\kernelperiod.cpp BUILD/LPC1768/GCC_ARM\mbed_config.h \
- nlib\KernelPeriod\kernelperiod.h nlib/nworkbench.h mbed-os/mbed.h \
- mbed-os/platform/mbed_version.h mbed-os/platform/mbed_toolchain.h \
- mbed-os/platform/mbed_preprocessor.h mbed-os/platform/platform.h \
- mbed-os/platform/mbed_retarget.h mbed-os/platform/mbed_toolchain.h \
+BUILD\LPC1768\GCC_ARM\nlib\Counter\counter.o: nlib\Counter\counter.cpp \
+ BUILD/LPC1768/GCC_ARM\mbed_config.h nlib\Counter\counter.h \
+ mbed-os/mbed.h mbed-os/platform/mbed_version.h \
+ mbed-os/platform/mbed_toolchain.h mbed-os/platform/mbed_preprocessor.h \
+ mbed-os/platform/platform.h mbed-os/platform/mbed_retarget.h \
+ mbed-os/platform/mbed_toolchain.h \
  mbed-os/targets/TARGET_NXP/TARGET_LPC176X/TARGET_MBED_LPC1768/device.h \
  mbed-os/targets/TARGET_NXP/TARGET_LPC176X/objects.h \
  mbed-os/targets/TARGET_NXP/TARGET_LPC176X/device/cmsis.h \
@@ -76,4 +76,4 @@ BUILD\LPC1768\GCC_ARM\nlib\KernelPeriod\kernelperiod.o: \
  mbed-os/hal/mpu_api.h mbed-os/platform/ScopedRamExecutionLock.h \
  mbed-os/platform/mbed_stats.h mbed-os/platform/Callback.h \
  mbed-os/platform/FunctionPointer.h mbed-os/platform/ScopedLock.h \
- nlib/fifo.h
+ nlib/nworkbench.h nlib/fifo.h
