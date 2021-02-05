@@ -10,15 +10,21 @@
 #include "nlib\Ticker\ticker.h"
 #include "nlib\Counter\counter.h"
 #include "nlib\STEPPER\STEPPER.h"
+#include "nlib\StringFormat\stringformat.h"
+#include "nlib\OLEDisplay\OLEDisplay.h"
 
 // -*-*- List of node objects -*-*-
-nBlock_Ticker       nb_nBlockNode0_Ticker  (1000);
-nBlock_Counter      nb_nBlockNode1_Counter (3);
-nBlock_STEPPER      nb_nBlockNode2_STEPPER (p11, p12, p13, p8, p26, p29, p30, p25, 100, 10, 1, false);
+nBlock_Ticker            nb_nBlockNode0_Ticker       (4000);
+nBlock_Counter           nb_nBlockNode1_Counter      (3);
+nBlock_STEPPER           nb_nBlockNode2_STEPPER      (p11, p12, p13, p8, p26, p29, p30, p25, 1, 10, 1, false);
+nBlock_StringFormat      nb_nBlockNode3_StringFormat ("Distance = %d cm\r");
+nBlock_OLEDisplay        nb_nBlockNode4_OLEDisplay   (p9, p10, p27);
 
 // -*-*- List of connection objects -*-*-
-nBlockConnection    n_conn0( &nb_nBlockNode1_Counter, 0,    &nb_nBlockNode2_STEPPER, 0);
-nBlockConnection    n_conn1( &nb_nBlockNode0_Ticker,  0,    &nb_nBlockNode1_Counter, 0);
+nBlockConnection    n_conn0( &nb_nBlockNode3_StringFormat, 0,    &nb_nBlockNode4_OLEDisplay,   0);
+nBlockConnection    n_conn1( &nb_nBlockNode1_Counter,      0,    &nb_nBlockNode2_STEPPER,      0);
+nBlockConnection    n_conn2( &nb_nBlockNode1_Counter,      0,    &nb_nBlockNode3_StringFormat, 0);
+nBlockConnection    n_conn3( &nb_nBlockNode0_Ticker,       0,    &nb_nBlockNode1_Counter,      0);
 
 
 // -*-*- Main function -*-*-
