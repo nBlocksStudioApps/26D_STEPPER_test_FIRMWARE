@@ -14,16 +14,16 @@
 #include "nlib\OLEDisplay\OLEDisplay.h"
 
 // -*-*- List of node objects -*-*-
-nBlock_Ticker            nb_nBlockNode0_Ticker       (500);
-nBlock_Counter           nb_nBlockNode1_Counter      (3);
-nBlock_STEPPER           nb_nBlockNode2_STEPPER      (p11, p12, p13, p8, p26, p29, p30, p25, 0.00002, 10, 1, false);
-nBlock_StringFormat      nb_nBlockNode3_StringFormat ("State = %d\r");
+nBlock_Ticker            nb_nBlockNode0_Ticker       (1000);
+nBlock_Counter           nb_nBlockNode1_Counter      (5);
+nBlock_STEPPER           nb_nBlockNode2_STEPPER      (p11, p12, p13, p8, p26, p29, p30, p25, 0.001, 10, 1, false);
+nBlock_StringFormat      nb_nBlockNode3_StringFormat ("stop at %d\r");
 nBlock_OLEDisplay        nb_nBlockNode4_OLEDisplay   (p9, p10, p27);
 
 // -*-*- List of connection objects -*-*-
 nBlockConnection    n_conn0( &nb_nBlockNode3_StringFormat, 0,    &nb_nBlockNode4_OLEDisplay,   0);
-nBlockConnection    n_conn1( &nb_nBlockNode1_Counter,      0,    &nb_nBlockNode2_STEPPER,      0);
-nBlockConnection    n_conn2( &nb_nBlockNode1_Counter,      0,    &nb_nBlockNode3_StringFormat, 0);
+nBlockConnection    n_conn1( &nb_nBlockNode2_STEPPER,      0,    &nb_nBlockNode3_StringFormat, 0);
+nBlockConnection    n_conn2( &nb_nBlockNode1_Counter,      0,    &nb_nBlockNode2_STEPPER,      0);
 nBlockConnection    n_conn3( &nb_nBlockNode0_Ticker,       0,    &nb_nBlockNode1_Counter,      0);
 
 
