@@ -9,9 +9,19 @@ src="img/01.PNG"
 width = 800
 />
 
+## Motion example
+<img
+src="img/03.GIF"
+width = 400
+/>
 
-## Testing with n-PRO
+## Testing boards
+ *  n-PRO-3DP motion control motherboard 
+ *  n-PRO-10 LPC1768
+ *  n-DAP mbed-enable agent
+ *  TCM2100 silentstepstick
+
 <img
 src="img/02.PNG"
-width = 800
+width = 400
 />

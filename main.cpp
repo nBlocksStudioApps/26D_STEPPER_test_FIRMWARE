@@ -14,7 +14,7 @@
 #include "nlib\OLEDisplay\OLEDisplay.h"
 
 // -*-*- List of node objects -*-*-
-nBlock_Ticker            nb_nBlockNode0_Ticker       (8000);
+nBlock_Ticker            nb_nBlockNode0_Ticker       (4000);
 nBlock_Counter           nb_nBlockNode1_Counter      (5);
 nBlock_STEPPER           nb_nBlockNode2_STEPPER      (p11, p12, p13, p8, p26, p29, p30, p25, 0.00005, 10, 1, false);
 nBlock_StringFormat      nb_nBlockNode3_StringFormat ("stop at %d\r");
