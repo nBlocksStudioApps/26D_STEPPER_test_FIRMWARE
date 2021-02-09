@@ -28721,7 +28721,7 @@ OUTPUT(BUILD/LPC1768/GCC_ARM/26D_STEPPER_test.elf elf32-littlearm)
  .comment       0x00000079       0x7a BUILD/LPC1768/GCC_ARM/nlib/Ticker/ticker.o
  .comment       0x00000079       0x7a BUILD/LPC1768/GCC_ARM/nlib/nworkbench.o
 
-.debug_info     0x00000000    0x9dd06
+.debug_info     0x00000000    0x9dd05
  .debug_info    0x00000000     0x65cb BUILD/LPC1768/GCC_ARM/main.o
  .debug_info    0x000065cb     0x20bd BUILD/LPC1768/GCC_ARM/mbed-os/drivers/source/DigitalInOut.o
  .debug_info    0x00008688     0x54bc BUILD/LPC1768/GCC_ARM/mbed-os/drivers/source/I2C.o
@@ -28770,10 +28770,10 @@ OUTPUT(BUILD/LPC1768/GCC_ARM/26D_STEPPER_test.elf elf32-littlearm)
  .debug_info    0x0006a27a     0x53d0 BUILD/LPC1768/GCC_ARM/nlib/OLEDisplay/Adafruit_GFX/Adafruit_GFX.o
  .debug_info    0x0006f64a     0x9027 BUILD/LPC1768/GCC_ARM/nlib/OLEDisplay/Adafruit_GFX/Adafruit_SSD1306.o
  .debug_info    0x00078671     0xa6b7 BUILD/LPC1768/GCC_ARM/nlib/OLEDisplay/OLEDisplay.o
- .debug_info    0x00082d28     0x8394 BUILD/LPC1768/GCC_ARM/nlib/STEPPER/STEPPER.o
- .debug_info    0x0008b0bc     0x5dc0 BUILD/LPC1768/GCC_ARM/nlib/StringFormat/stringformat.o
- .debug_info    0x00090e7c     0x65e7 BUILD/LPC1768/GCC_ARM/nlib/Ticker/ticker.o
- .debug_info    0x00097463     0x68a3 BUILD/LPC1768/GCC_ARM/nlib/nworkbench.o
+ .debug_info    0x00082d28     0x8393 BUILD/LPC1768/GCC_ARM/nlib/STEPPER/STEPPER.o
+ .debug_info    0x0008b0bb     0x5dc0 BUILD/LPC1768/GCC_ARM/nlib/StringFormat/stringformat.o
+ .debug_info    0x00090e7b     0x65e7 BUILD/LPC1768/GCC_ARM/nlib/Ticker/ticker.o
+ .debug_info    0x00097462     0x68a3 BUILD/LPC1768/GCC_ARM/nlib/nworkbench.o
 
 .debug_abbrev   0x00000000    0x132bb
  .debug_abbrev  0x00000000      0xaa1 BUILD/LPC1768/GCC_ARM/main.o
