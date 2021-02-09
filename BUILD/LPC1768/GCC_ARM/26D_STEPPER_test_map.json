@@ -79,7 +79,7 @@
     {
         "module": "main.o",
         "size": {
-            ".text": 524,
+            ".text": 528,
             ".data": 0,
             ".bss": 1412,
             ".text-delta": 0,
@@ -156,7 +156,7 @@
     {
         "module": "nlib\\STEPPER",
         "size": {
-            ".text": 1706,
+            ".text": 1734,
             ".data": 0,
             ".bss": 0,
             ".text-delta": 0,
@@ -201,7 +201,7 @@
         "summary": {
             "static_ram": 5364,
             "static_ram_delta": 0,
-            "total_flash": 69548,
+            "total_flash": 69580,
             "total_flash_delta": 0
         }
     }
