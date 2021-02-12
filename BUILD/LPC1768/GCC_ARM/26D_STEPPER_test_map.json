@@ -156,7 +156,7 @@
     {
         "module": "nlib\\STEPPER",
         "size": {
-            ".text": 1734,
+            ".text": 1742,
             ".data": 0,
             ".bss": 0,
             ".text-delta": 0,
@@ -201,7 +201,7 @@
         "summary": {
             "static_ram": 5364,
             "static_ram_delta": 0,
-            "total_flash": 69580,
+            "total_flash": 69588,
             "total_flash_delta": 0
         }
     }
