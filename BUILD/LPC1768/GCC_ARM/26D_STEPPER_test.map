@@ -19978,6 +19978,7 @@ Discarded input sections
                 0x00000000        0x2 BUILD/LPC1768/GCC_ARM/nlib/STEPPER/STEPPER.o
  .text._ZN14nBlock_STEPPER12read_TMC2130EhPm
                 0x00000000       0x90 BUILD/LPC1768/GCC_ARM/nlib/STEPPER/STEPPER.o
+ .debug_macro   0x00000000      0xcc4 BUILD/LPC1768/GCC_ARM/nlib/STEPPER/STEPPER.o
  .debug_macro   0x00000000       0xfa BUILD/LPC1768/GCC_ARM/nlib/STEPPER/STEPPER.o
  .debug_macro   0x00000000       0x9a BUILD/LPC1768/GCC_ARM/nlib/STEPPER/STEPPER.o
  .debug_macro   0x00000000       0x2e BUILD/LPC1768/GCC_ARM/nlib/STEPPER/STEPPER.o
@@ -29036,7 +29037,7 @@ OUTPUT(BUILD/LPC1768/GCC_ARM/26D_STEPPER_test.elf elf32-littlearm)
  .debug_ranges  0x00002c80       0xb0 BUILD/LPC1768/GCC_ARM/nlib/Ticker/ticker.o
  .debug_ranges  0x00002d30      0x168 BUILD/LPC1768/GCC_ARM/nlib/nworkbench.o
 
-.debug_macro    0x00000000    0x1afb2
+.debug_macro    0x00000000    0x1a2ee
  .debug_macro   0x00000000      0xd75 BUILD/LPC1768/GCC_ARM/main.o
  .debug_macro   0x00000d75      0xcc4 BUILD/LPC1768/GCC_ARM/main.o
  .debug_macro   0x00001a39       0xfa BUILD/LPC1768/GCC_ARM/main.o
@@ -29241,10 +29242,9 @@ OUTPUT(BUILD/LPC1768/GCC_ARM/26D_STEPPER_test.elf elf32-littlearm)
  .debug_macro   0x000154fd      0xd8b BUILD/LPC1768/GCC_ARM/nlib/OLEDisplay/Adafruit_GFX/Adafruit_SSD1306.o
  .debug_macro   0x00016288      0xd36 BUILD/LPC1768/GCC_ARM/nlib/OLEDisplay/OLEDisplay.o
  .debug_macro   0x00016fbe      0xccd BUILD/LPC1768/GCC_ARM/nlib/STEPPER/STEPPER.o
- .debug_macro   0x00017c8b      0xcc4 BUILD/LPC1768/GCC_ARM/nlib/STEPPER/STEPPER.o
- .debug_macro   0x0001894f      0xccf BUILD/LPC1768/GCC_ARM/nlib/StringFormat/stringformat.o
- .debug_macro   0x0001961e      0xcd0 BUILD/LPC1768/GCC_ARM/nlib/Ticker/ticker.o
- .debug_macro   0x0001a2ee      0xcc4 BUILD/LPC1768/GCC_ARM/nlib/nworkbench.o
+ .debug_macro   0x00017c8b      0xccf BUILD/LPC1768/GCC_ARM/nlib/StringFormat/stringformat.o
+ .debug_macro   0x0001895a      0xcd0 BUILD/LPC1768/GCC_ARM/nlib/Ticker/ticker.o
+ .debug_macro   0x0001962a      0xcc4 BUILD/LPC1768/GCC_ARM/nlib/nworkbench.o
 
 .debug_line     0x00000000    0x2d8a2
  .debug_line    0x00000000     0x18df BUILD/LPC1768/GCC_ARM/main.o
@@ -29300,7 +29300,7 @@ OUTPUT(BUILD/LPC1768/GCC_ARM/26D_STEPPER_test.elf elf32-littlearm)
  .debug_line    0x0002a5eb     0x17b9 BUILD/LPC1768/GCC_ARM/nlib/Ticker/ticker.o
  .debug_line    0x0002bda4     0x1afe BUILD/LPC1768/GCC_ARM/nlib/nworkbench.o
 
-.debug_str      0x00000000    0x33a53
+.debug_str      0x00000000    0x33a2b
  .debug_str     0x00000000    0x20a59 BUILD/LPC1768/GCC_ARM/main.o
                               0x219a5 (size before relaxing)
  .debug_str     0x00020a59      0x2ef BUILD/LPC1768/GCC_ARM/mbed-os/drivers/source/DigitalInOut.o
@@ -29397,13 +29397,13 @@ OUTPUT(BUILD/LPC1768/GCC_ARM/26D_STEPPER_test.elf elf32-littlearm)
                               0x23f19 (size before relaxing)
  .debug_str     0x00031976      0xbb4 BUILD/LPC1768/GCC_ARM/nlib/OLEDisplay/OLEDisplay.o
                               0x245f2 (size before relaxing)
- .debug_str     0x0003252a      0x9f2 BUILD/LPC1768/GCC_ARM/nlib/STEPPER/STEPPER.o
+ .debug_str     0x0003252a      0x9ca BUILD/LPC1768/GCC_ARM/nlib/STEPPER/STEPPER.o
                               0x222ca (size before relaxing)
- .debug_str     0x00032f1c      0x12f BUILD/LPC1768/GCC_ARM/nlib/StringFormat/stringformat.o
+ .debug_str     0x00032ef4      0x12f BUILD/LPC1768/GCC_ARM/nlib/StringFormat/stringformat.o
                               0x20f7e (size before relaxing)
- .debug_str     0x0003304b      0x5b1 BUILD/LPC1768/GCC_ARM/nlib/Ticker/ticker.o
+ .debug_str     0x00033023      0x5b1 BUILD/LPC1768/GCC_ARM/nlib/Ticker/ticker.o
                               0x2174e (size before relaxing)
- .debug_str     0x000335fc      0x457 BUILD/LPC1768/GCC_ARM/nlib/nworkbench.o
+ .debug_str     0x000335d4      0x457 BUILD/LPC1768/GCC_ARM/nlib/nworkbench.o
                               0x215b6 (size before relaxing)
 
 .debug_frame    0x00000000     0x88ac
