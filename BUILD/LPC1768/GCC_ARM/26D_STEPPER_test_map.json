@@ -4,7 +4,7 @@
         "size": {
             ".text": 618,
             ".data": 4,
-            ".bss": 35,
+            ".bss": 31,
             ".text-delta": 0,
             ".data-delta": 0,
             ".bss-delta": 0
@@ -55,11 +55,22 @@
         }
     },
     {
+        "module": "[lib]\\stdc++.a",
+        "size": {
+            ".text": 0,
+            ".data": 0,
+            ".bss": 0,
+            ".text-delta": -40,
+            ".data-delta": 0,
+            ".bss-delta": -16
+        }
+    },
+    {
         "module": "main.o",
         "size": {
-            ".text": 570,
+            ".text": 626,
             ".data": 0,
-            ".bss": 1252,
+            ".bss": 1848,
             ".text-delta": 0,
             ".data-delta": 0,
             ".bss-delta": 0
@@ -123,7 +134,7 @@
     {
         "module": "nlib\\STEPPER",
         "size": {
-            ".text": 1782,
+            ".text": 1822,
             ".data": 0,
             ".bss": 0,
             ".text-delta": 0,
@@ -177,10 +188,10 @@
     },
     {
         "summary": {
-            "static_ram": 5144,
-            "static_ram_delta": 0,
-            "total_flash": 58904,
-            "total_flash_delta": 0
+            "static_ram": 5736,
+            "static_ram_delta": -16,
+            "total_flash": 59000,
+            "total_flash_delta": -40
         }
     }
 ]

@@ -19,12 +19,15 @@ nBlock_Counter           nb_nBlockNode1_Counter      (4);
 nBlock_STEPPER           nb_nBlockNode2_STEPPER      (p11, p12, p13, P0_11, p26, p29, p30, p25, 0.00004, 10, 1, true);
 nBlock_StringFormat      nb_nBlockNode3_StringFormat ("counter %d\n");
 nBlock_StringSerial      nb_nBlockNode4_StringSerial (USBTX, USBRX);
+nBlock_StringFormat      nb_nBlockNode5_StringFormat ("stall at %d\n");
 
 // -*-*- List of connection objects -*-*-
 nBlockConnection    n_conn0( &nb_nBlockNode3_StringFormat, 0,    &nb_nBlockNode4_StringSerial, 0);
-nBlockConnection    n_conn1( &nb_nBlockNode1_Counter,      0,    &nb_nBlockNode2_STEPPER,      0);
-nBlockConnection    n_conn2( &nb_nBlockNode1_Counter,      0,    &nb_nBlockNode3_StringFormat, 0);
-nBlockConnection    n_conn3( &nb_nBlockNode0_Ticker,       0,    &nb_nBlockNode1_Counter,      0);
+nBlockConnection    n_conn1( &nb_nBlockNode5_StringFormat, 0,    &nb_nBlockNode4_StringSerial, 0);
+nBlockConnection    n_conn2( &nb_nBlockNode2_STEPPER,      0,    &nb_nBlockNode5_StringFormat, 0);
+nBlockConnection    n_conn3( &nb_nBlockNode1_Counter,      0,    &nb_nBlockNode2_STEPPER,      0);
+nBlockConnection    n_conn4( &nb_nBlockNode1_Counter,      0,    &nb_nBlockNode3_StringFormat, 0);
+nBlockConnection    n_conn5( &nb_nBlockNode0_Ticker,       0,    &nb_nBlockNode1_Counter,      0);
 
 
 // -*-*- Main function -*-*-
