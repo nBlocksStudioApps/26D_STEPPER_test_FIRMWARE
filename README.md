@@ -1,4 +1,5 @@
-# 26D_STEPPER_test
+# [26D_STEPPER_test](https://github.com/nBlocksStudioApps/26D_STEPPER_test_FIRMWARE.git)
+
 C++ project created automatically from the [26D_STEPPER_test schematic design](https://github.com/nBlocksStudioApps/26D_STEPPER_test),
 to test and fine tune the new Node [STEPPER](https://github.com/nBlocksStudioNodes/nblocks_stepper)
 
@@ -9,11 +10,26 @@ src="img/01.PNG"
 width = 800
 />
 
-## Motion example
+## Motion examples
 <img
 src="img/03.GIF"
 width = 400
 />
+<img
+src="img/04.GIF"
+width = 400
+/>
+
+## Stall detection
+<img
+src="img/03.PNG"
+width = 800
+/>
+<img
+src="img/05.GIF"
+width = 400
+/>
+
 
 ## Testing boards
  *  n-PRO-3DP motion control motherboard 
