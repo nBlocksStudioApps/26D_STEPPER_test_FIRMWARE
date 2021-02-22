@@ -4,7 +4,7 @@
         "size": {
             ".text": 618,
             ".data": 4,
-            ".bss": 31,
+            ".bss": 35,
             ".text-delta": 0,
             ".data-delta": 0,
             ".bss-delta": 0
@@ -13,7 +13,7 @@
     {
         "module": "[lib]\\c.a",
         "size": {
-            ".text": 31204,
+            ".text": 31208,
             ".data": 2472,
             ".bss": 89,
             ".text-delta": 0,
@@ -24,7 +24,7 @@
     {
         "module": "[lib]\\gcc.a",
         "size": {
-            ".text": 8344,
+            ".text": 4604,
             ".data": 0,
             ".bss": 0,
             ".text-delta": 0,
@@ -55,33 +55,11 @@
         }
     },
     {
-        "module": "[lib]\\nosys.a",
-        "size": {
-            ".text": 32,
-            ".data": 0,
-            ".bss": 0,
-            ".text-delta": 0,
-            ".data-delta": 0,
-            ".bss-delta": 0
-        }
-    },
-    {
-        "module": "[lib]\\stdc++.a",
-        "size": {
-            ".text": 4664,
-            ".data": 8,
-            ".bss": 44,
-            ".text-delta": 0,
-            ".data-delta": 0,
-            ".bss-delta": 0
-        }
-    },
-    {
         "module": "main.o",
         "size": {
-            ".text": 528,
+            ".text": 570,
             ".data": 0,
-            ".bss": 1412,
+            ".bss": 1252,
             ".text-delta": 0,
             ".data-delta": 0,
             ".bss-delta": 0
@@ -90,9 +68,9 @@
     {
         "module": "mbed-os\\drivers",
         "size": {
-            ".text": 3010,
+            ".text": 3296,
             ".data": 0,
-            ".bss": 36,
+            ".bss": 24,
             ".text-delta": 0,
             ".data-delta": 0,
             ".bss-delta": 0
@@ -101,7 +79,7 @@
     {
         "module": "mbed-os\\hal",
         "size": {
-            ".text": 2088,
+            ".text": 1932,
             ".data": 4,
             ".bss": 67,
             ".text-delta": 0,
@@ -112,7 +90,7 @@
     {
         "module": "mbed-os\\platform",
         "size": {
-            ".text": 5632,
+            ".text": 5660,
             ".data": 260,
             ".bss": 364,
             ".text-delta": 0,
@@ -123,7 +101,7 @@
     {
         "module": "mbed-os\\targets",
         "size": {
-            ".text": 5104,
+            ".text": 4566,
             ".data": 4,
             ".bss": 437,
             ".text-delta": 0,
@@ -143,20 +121,9 @@
         }
     },
     {
-        "module": "nlib\\OLEDisplay",
-        "size": {
-            ".text": 2132,
-            ".data": 0,
-            ".bss": 0,
-            ".text-delta": 0,
-            ".data-delta": 0,
-            ".bss-delta": 0
-        }
-    },
-    {
         "module": "nlib\\STEPPER",
         "size": {
-            ".text": 1742,
+            ".text": 1782,
             ".data": 0,
             ".bss": 0,
             ".text-delta": 0,
@@ -168,6 +135,17 @@
         "module": "nlib\\StringFormat",
         "size": {
             ".text": 220,
+            ".data": 0,
+            ".bss": 0,
+            ".text-delta": 0,
+            ".data-delta": 0,
+            ".bss-delta": 0
+        }
+    },
+    {
+        "module": "nlib\\StringSerial",
+        "size": {
+            ".text": 186,
             ".data": 0,
             ".bss": 0,
             ".text-delta": 0,
@@ -199,9 +177,9 @@
     },
     {
         "summary": {
-            "static_ram": 5364,
+            "static_ram": 5144,
             "static_ram_delta": 0,
-            "total_flash": 69588,
+            "total_flash": 58904,
             "total_flash_delta": 0
         }
     }
