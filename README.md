@@ -16,7 +16,7 @@ src="img/03.GIF"
 height = 300
 />
 <img
-src="img/04.GIF"
+src="img/06.GIF"
 height = 300
 />
 
