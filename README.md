@@ -13,11 +13,11 @@ width = 800
 ## Motion examples
 <img
 src="img/03.GIF"
-width = 400
+height = 300
 />
 <img
 src="img/04.GIF"
-width = 400
+height = 300
 />
 
 ## Stall detection
